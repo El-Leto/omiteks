@@ -17,6 +17,10 @@
 
 .about__item {
   margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .about__item-wrapper {

@@ -1,6 +1,14 @@
+.catalog {
+
+  &--wrapper {
+    padding-top: 80px;
+  }
+}
+
 .catalog__title {
   font-size: 32px;
   font-family: $font-bold;
+  margin-top: 0;
 }
 
 .catalog__list {

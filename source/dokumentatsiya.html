@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet preload" href="./fonts/montserrat-regular.woff" as="font" type="font/woff" crossorigin>
+    <link rel="stylesheet preload" href="./fonts/montserrat-medium.woff" as="font" type="font/woff" crossorigin>
+    <link rel="stylesheet preload" href="./fonts/montserrat-bold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/normalize.min.css">
+  </head>
+  <body class="page__body">
+    <header class="header">
+      <div class="header__top">
+        <div class="container header__top--wrapper">
+          <img class="header__logo" src="./img/logo.png" width="179" height="109" alt="Назад на главную">
+          <address class="header__address">Обнинск  Калужской обл., Красных Зорь, д.30</address>
+          <a class="header__phone" href="tel:84843979612">8 (484) 397-96-12</a>
+          <a class="header__phone" href="tel:+79773451214">+7 (977) 345-12-14</a>
+          <a class="header__button order" data-name="order">Заказать звонок</a>
+          <button class="header__menu-button header__menu-button--closed" type="button"><span class="visually-hidden">Open menu</span></button>
+        </div>
+      </div>
+      <div class="header__nav">
+        <nav class="container nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link"  href="./index.html">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./index.html#about">О компании</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./index.html#catalog">Каталог</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--active">Документация</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./index.html#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main__page">
+      <section class="about">
+        <a name="about"></a>
+        <div class="container about--wrapper">
+          <h2 class="about__title">О компании</h2>
+          <ul class="about__list">
+            <li class="about__item">
+              <div class="about__item-wrapper">
+                <div class="about__item-title">
+                  <p class="about__number">2006</p>
+                  <p class="about__description">Год основания</p>
+                </div>
+                <p class="about__text">Основным видом нашей деятельности является продвижение и реализация современных Российских технологий в области обезвреживания медицинских отходов.</p>
+              </div>
+            </li>
+            <li class="about__item">
+              <div class="about__item-wrapper">
+                <div class="about__item-title">
+                  <p class="about__number">2200</p>
+                  <p class="about__description">поставлено единиц</p>
+                </div>
+                <p class="about__text">С 2006 года в организации различного профиля в разных городах России поставлены и успешно работают более 2200 единиц нашего оборудования</p>
+              </div>
+            </li>
+            <li class="about__item">
+              <div class="about__item-wrapper">
+                <div class="about__item-title">
+                  <p class="about__number">2021</p>
+                </div>
+                <p class="about__text">В 2021 году компания ООО «Специнтех», получила сертификат о внесении в реестр добросовестных поставщиков, а также была внесена в реестр надёжных поставщиков</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer--wrapper">
+        <div class="footer__logo">
+          <img class="header__logo" src="./img/logo.png" width="179" height="109" alt="Назад на главную">
+          <p class="contacts__address">Обнинск  Калужской обл., Красных Зорь, д.30</p>
+          <a class="footer__phone" href="tel:84843979612">8 (484) 397-96-12</a>
+          <a class="footer__phone" href="tel:+79773451214">+7 (977) 345-12-14</a>
+        </div>
+        <div class="footer__menu">
+          <h2 class="footer__title">Меню</h2>
+          <nav class="footer__nav">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="./index.html">Главная</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">О компании</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Каталог</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link footer__link--active">Документация</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__catalog">
+          <h2 class="footer__title">Каталог</h2>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">Система для СВЧ - обезвреживания медицинских отходов "УОМО-Т90" и "УОМО-Т150"</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Пресс-деструктор</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Измельчитель-деструктор ДОМО-ОК</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- <section class="modal">
+      <div class="modal__wrapper">
+        <form action="#" id="form" class="form__modal">
+          <h1 class="modal__title">Оставьте заявку и наш менеджер с Вами свяжется</h1>
+          <button type="button" class="modal__close" aria-label="Закрыть"><span class="visually-hidden">Закрыть</span></button>
+          <div class="modal__item">
+            <label for="name" class="modal__label">ФИО* :</label>
+            <input id="name" type="text" class="modal__input required" name="name" placeholder="Имя" aria-label="Ваше имя" value="">
+          </div>
+          <div class="modal__item">
+            <label for="phone" class="modal__label">Телефон* :</label>
+            <input id="phone" type="tel" class="modal__input phone required" name="phone" placeholder="Телефон" aria-label="Номер телефона" value="">
+          </div>
+          <div class="modal__item">
+            <label for="company" class="modal__label">Фирма/организация:</label>
+            <input id="company" type="text" class="modal__input" name="company" placeholder="Название" aria-label="Название организации/компании" value="">
+          </div>
+          <button type="submit" class="modal__button">Заказать звонок</button>
+        </form>
+      </div>
+    </section> -->
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
