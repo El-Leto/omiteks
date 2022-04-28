@@ -1,0 +1,36 @@
+.title-page {
+  background-image: url('../img/omiteks.jpg');
+  background-repeat: no-repeat;
+  background-position: center 25%;
+  background-size: cover;
+  color: $white;
+  display: flex;
+
+  &--wrapper {
+    padding-top: 100px;
+  }
+}
+
+.title-page__description {
+  width: 50%;
+}
+
+.title-page__name {
+  font-family: $font-bold;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.title-page__title {
+  font-family: $font-bold;
+  font-size: 34px;
+  line-height: 45px;
+  margin-bottom: 80px;
+}
+
+.title-page__text {
+  font-family: $font-medium;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 100px;
+}

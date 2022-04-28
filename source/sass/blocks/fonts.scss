@@ -1,32 +1,29 @@
 @font-face {
-  font-family: 'PT Sans Regular';
+  font-family: 'Montserrat Regular';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("PT Sans"),
-       local("PT Sans Regular"),
-       url('../fonts/pt-sans-regular.woff2') format('woff2'),
-       url('../fonts/pt-sans-regular.woff') format('woff');
+  src: local("Montserrat"),
+       local("Montserrat Regular"),
+       url('../fonts/montserrat-regular.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'PT Sans Bold';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("PT Sans"),
-       local("PT Sans Bold"),
-       url('../fonts/pt-sans-700.woff2') format('woff2'),
-       url('../fonts/pt-sans-700.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'PT Sans Italic';
+  font-family: 'Montserrat Medium';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local("PT Sans"),
-       local("PT Sans Italic"),
-       url('../fonts/pt-sans-italic.woff2') format('woff2'),
-       url('../fonts/pt-sans-italic.woff') format('woff');
+  src: local("Montserrat"),
+       local("Montserrat Medium"),
+       url('../fonts/montserrat-medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Montserrat"),
+       local("Montserrat Bold"),
+       url('../fonts/montserrat-bold.woff') format('woff');
 }

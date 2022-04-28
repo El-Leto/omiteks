@@ -1,0 +1,30 @@
+.services {
+  background: linear-gradient(100.73deg, #5DCAEB -19.72%, #0E7AAC 39.3%);
+  color: $white;
+
+  &--wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+  }
+}
+
+.services__title {
+  font-size: 32px;
+  font-family: $font-bold;
+}
+
+.services__list {
+  width: 67%;
+  list-style: none;
+  padding: 0;
+}
+
+.services__item {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.services__image {
+  margin-right: 50px;
+}

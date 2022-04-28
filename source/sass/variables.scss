@@ -1,20 +1,27 @@
 /*color*/
-// $black: #000000;
-// $white: #ffffff;
-// $grey: #808080;
+$black: #000000;
+$white: #ffffff;
+$blue-light: #26B1DD;
+$blue-dark: #0170A5;
+$grey: #f3f3f3;
+$grey-dark: #747B91;
+$text-dark: #242240;
+$blue-bg: #E9F3FF;
+$blue-light-bg: #F4F9FF;
 // $grey-light: #bfbfbf;
 // $grey-dark: #4b4b4b;
 // $grey-darken: #292929;
 // $grey-border: #d8d8d8;
-// $transparent: rgba(0, 0, 0, 0);
+$transparent: rgba(0, 0, 0, 0);
 // $white-transparent: rgba(255, 255, 255, 0.7);
 
-// /*font*/
-// $main-font: "PT Sans Regular", "Arial", sans-serif;
-// $font-bold: "PT Sans Bold", "Arial", sans-serif;
-// $font-italic: "PT Sans Italic", "Arial", sans-serif;
+/*font*/
+$main-font: "Montserrat Regular", "Arial", sans-serif;
+$font-medium: "Montserrat Medium", "Arial", sans-serif;
+$font-bold: "Montserrat Bold", "Arial", sans-serif;
 
-// /*viewports*/
-// $desktop-width: 1440px;
-// $tablet-width: 768px;
-// $mobile-width: 320px;
+/*viewports*/
+$desktop-width: 1440px;
+$tablet-width: 768px;
+$mobile-width: 320px;
+

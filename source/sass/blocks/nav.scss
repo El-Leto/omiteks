@@ -1,0 +1,36 @@
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  font-family: $font-medium;
+  font-size: 14px;
+  padding: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: $text-dark;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: all 0.5s ease;
+
+  &:hover {
+    color: $blue-light;
+  }
+
+  &:active {
+    color: $blue-light;
+  }
+
+  &:focus {
+    color: $blue-light;
+  }
+
+  &--active {
+    color: $blue-light;
+  }
+}

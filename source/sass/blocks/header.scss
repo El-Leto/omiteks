@@ -1,0 +1,95 @@
+.header__nav {
+  background-color: $grey;
+}
+
+.header__top--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 140px;
+  height: auto;
+}
+
+.header__address {
+  font-size: 14px;
+}
+
+.header__phone {
+  text-decoration: none;
+  color: $text-dark;
+  font-family: $font-bold;
+
+  &:hover {
+    color: $blue-light;
+  }
+
+  &:active {
+    color: $blue-light;
+  }
+
+  &:focus {
+    color: $blue-light;
+  }
+}
+
+.header__button {
+  background: linear-gradient(180deg, $blue-light 0%, $blue-dark 100%);
+  color: $white;
+  text-align: center;
+  font-family: $main-font;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  box-sizing: border-box;
+
+  &:hover {
+    background: linear-gradient(180deg, $blue-dark 0%, $blue-dark 100%);
+  }
+
+  &:active {
+    background: $blue-dark;
+  }
+
+  &:focus {
+    background: $blue-dark;
+  }
+
+  @media (max-width: $tablet-width) {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  @media (max-width: $mobile-width) {
+    display: none;
+  }
+}
+
+.header__menu-button {
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: $transparent;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+
+  @media (max-width: $mobile-width) {
+    display: block;
+    background-image: url('../img/menu-close.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+  }
+
+  &--closed {
+    background-image: url('../img/menu-open.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+  }
+}
