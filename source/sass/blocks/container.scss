@@ -1,27 +1,26 @@
 .container {
   margin: 0 auto;
-  width: 100%;
-
-  @media (min-width: 576px) { //мобильное меню
-    max-width: 540px;
-    min-width: 320px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+  min-width: 320px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
 
   @media (min-width: 768px) { //планшетное меню
-    max-width: 720px;
+    min-width: 708px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   @media (min-width: 992px) {
-    max-width: 960px;
+    min-width: 932px;
   }
 
   @media (min-width: 1200px) {
-    max-width: 1140px;
+    min-width: 1140px;
+    max-width: 1224px;
   }
 
   @media (min-width: 1400px) {
-    max-width: 1224px;
+    width: 1224px;
   }
 }

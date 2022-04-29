@@ -1,5 +1,24 @@
+.header {
+  position: relative;
+}
+
 .header__nav {
+  display: none;
   background-color: $grey;
+
+  &--opened {
+    position: absolute;
+    top: 69px;
+    right: 0;
+    z-index: 100;
+    background-color: $white;
+    display: block;
+    width: 100%;
+  }
+
+  @media (min-width: 992px) {
+    display: block;
+  }
 }
 
 .header__top--wrapper {
@@ -11,19 +30,26 @@
 .header__logo {
   width: 100px;
   height: auto;
+  display: block;
 }
 
 .header__address {
-  font-size: 16px;
-  font-style: normal;
-  color: $text-dark;
-  font-family: $font-bold;
+  display: none;
+
+  @media (min-width: 992px) {
+    display: block;
+    font-size: 16px;
+    font-style: normal;
+    color: $text-dark;
+    font-family: $font-bold;
+  }
 }
 
 .header__phone {
   text-decoration: none;
   color: $text-dark;
   font-family: $font-bold;
+  display: none;
 
   &:hover {
     color: $blue-light;
@@ -36,57 +62,27 @@
   &:focus {
     color: $blue-light;
   }
-}
 
-.header__button {
-  background: linear-gradient(180deg, $blue-light 0%, $blue-dark 100%);
-  color: $white;
-  text-align: center;
-  font-family: $main-font;
-  font-size: 14px;
-  cursor: pointer;
-  padding: 10px 30px;
-  border-radius: 10px;
-  transition: all 0.5s ease;
-  box-sizing: border-box;
-
-  &:hover {
-    background: linear-gradient(180deg, $blue-dark 0%, $blue-dark 100%);
-  }
-
-  &:active {
-    background: $blue-dark;
-  }
-
-  &:focus {
-    background: $blue-dark;
-  }
-
-  @media (max-width: $tablet-width) {
-    font-size: 14px;
-    padding: 10px 15px;
-  }
-
-  @media (max-width: $mobile-width) {
-    display: none;
+  @media (min-width: 768px) {
+    display: block;
   }
 }
 
 .header__menu-button {
-  display: none;
+  display: block;
   width: 40px;
   height: 40px;
   background-color: $transparent;
   cursor: pointer;
   border: none;
   padding: 0;
+  background-image: url('../img/menu-close.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 
-  @media (max-width: $mobile-width) {
-    display: block;
-    background-image: url('../img/menu-close.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
+  @media (min-width: 992px) {
+    display: none;
   }
 
   &--closed {

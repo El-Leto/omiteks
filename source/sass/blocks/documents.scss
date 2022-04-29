@@ -1,23 +1,40 @@
 .documents--wrapper {
-  padding-top: 50px;
+  padding-top: 10px;
+
+  @media (min-width: 768px) {
+    padding-top: 50px;
+  }
 }
 
 .documents__title {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 40px;
   font-family: $font-bold;
+
+  @media (min-width: 992px) {
+    font-size: 32px;
+  }
 }
 
 .documents__sub-title {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 30px;
   font-family: $font-bold;
   margin-bottom: 30px;
+
+  @media (min-width: 992px) {
+    font-size: 24px;
+  }
 }
 
 .documents__text {
   color: $grey-dark;
   font-family: $font-medium;
+  font-size: 14px;
+
+  @media (min-width: 992px) {
+    font-size: 16px;
+  }
 }
 
 .documents__list {
@@ -27,7 +44,13 @@
 }
 
 .documents__item {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  font-size: 14px;
+
+  @media (min-width: 992px) {
+    font-size: 16px;
+  }
 }
 
 .documents__link {
@@ -38,6 +61,8 @@
   align-items: flex-end;
   transition: all 0.5s ease;
   text-decoration: none;
+  position: relative;
+  padding-left: 40px;
 
   &:hover {
     color: $blue-light;
@@ -50,8 +75,27 @@
   &:focus {
     color: $blue-light;
   }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/pdf.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: $transparent;
+  }
+
+  @media (min-width: 768px) {
+    padding-left: 60px;
+  }
 }
 
 .documents__svg {
-  padding-right: 10px;
+  width: 40px;
+  margin-right: 10px;
 }
