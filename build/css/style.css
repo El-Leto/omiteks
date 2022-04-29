@@ -63,7 +63,7 @@
   justify-content: space-between; }
 
 .header__logo {
-  width: 140px;
+  width: 100px;
   height: auto; }
 
 .header__address {
@@ -177,6 +177,10 @@
     color: #26B1DD; }
   .nav__link--active {
     color: #26B1DD; }
+  .nav__link:first-child {
+    padding-left: 0; }
+  .nav__link:last-child {
+    padding-right: 0; }
 
 .title-page {
   background-image: url("../img/omiteks.jpg");
@@ -426,7 +430,7 @@
 .product__wrapper {
   display: grid;
   grid-template-columns: 40% 60%;
-  padding-top: 80px; }
+  padding-top: 50px; }
 
 .product__image {
   grid-row: 1 / 3;
@@ -504,7 +508,8 @@
   width: 35%;
   background-color: #E9F3FF;
   border-radius: 10px;
-  padding: 30px; }
+  padding: 30px;
+  display: flex; }
 
 .similar-product {
   display: flex;
@@ -521,10 +526,58 @@
     height: auto; }
 
 .similar-product__description {
-  width: 60%; }
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 .similar-product__title {
   margin-bottom: 100px; }
+
+.documents--wrapper {
+  padding-top: 50px; }
+
+.documents__title {
+  font-size: 32px;
+  line-height: 40px;
+  font-family: "Montserrat Bold", "Arial", sans-serif; }
+
+.documents__sub-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Montserrat Bold", "Arial", sans-serif;
+  margin-bottom: 30px; }
+
+.documents__text {
+  color: #747B91;
+  font-family: "Montserrat Medium", "Arial", sans-serif; }
+
+.documents__list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 50px; }
+
+.documents__item {
+  margin-bottom: 20px; }
+
+.documents__link {
+  color: #0170A5;
+  font-family: "Montserrat Medium", "Arial", sans-serif;
+  margin-right: 40px;
+  display: flex;
+  align-items: flex-end;
+  transition: all 0.5s ease;
+  text-decoration: none; }
+  .documents__link:hover {
+    color: #26B1DD; }
+  .documents__link:active {
+    color: #26B1DD; }
+  .documents__link:focus {
+    color: #26B1DD; }
+
+.documents__svg {
+  padding-right: 10px; }
 
 .footer {
   background-color: #f3f3f3;
