@@ -1,5 +1,6 @@
 .header {
   position: relative;
+  padding-top: 10px;
 }
 
 .header__nav {
@@ -8,7 +9,7 @@
 
   &--opened {
     position: absolute;
-    top: 69px;
+    top: 79px;
     right: 0;
     z-index: 100;
     background-color: $white;
@@ -19,6 +20,10 @@
   @media (min-width: 992px) {
     display: block;
   }
+}
+
+.header__top {
+  padding-bottom: 10px;
 }
 
 .header__top--wrapper {

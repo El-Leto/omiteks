@@ -31,6 +31,8 @@
   display: block;
   margin-bottom: 15px;
   transition: all 0.5s ease;
+  display: flex;
+  align-items: center;
 
   &:hover {
     color: $blue-light;
@@ -94,4 +96,8 @@
   @media (min-width: 768px) {
     width: 40%;
   }
+}
+
+.footer__svg {
+  margin-right: 10px;
 }
