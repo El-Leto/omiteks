@@ -67,7 +67,10 @@
   height: auto; }
 
 .header__address {
-  font-size: 14px; }
+  font-size: 16px;
+  font-style: normal;
+  color: #242240;
+  font-family: "Montserrat Bold", "Arial", sans-serif; }
 
 .header__phone {
   text-decoration: none;
@@ -251,6 +254,16 @@
   color: #747B91;
   font-family: "Montserrat Medium", "Arial", sans-serif;
   width: calc(100% - 200px); }
+
+.about__link {
+  text-decoration: none;
+  color: #747B91; }
+  .about__link:hover {
+    color: #26B1DD; }
+  .about__link:active {
+    color: #26B1DD; }
+  .about__link:focus {
+    color: #26B1DD; }
 
 .catalog--wrapper {
   padding-top: 80px; }

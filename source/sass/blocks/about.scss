@@ -55,3 +55,20 @@
   font-family: $font-medium;
   width: calc(100% - 200px);
 }
+
+.about__link {
+  text-decoration: none;
+  color: $grey-dark;
+
+  &:hover {
+    color: $blue-light;
+  }
+
+  &:active {
+    color: $blue-light;
+  }
+
+  &:focus {
+    color: $blue-light;
+  }
+}
